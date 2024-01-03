@@ -1,0 +1,20 @@
+[ 2024-01-03 08:20:19,940 ] 96 werkzeug - WARNING -  * Debugger is active!
+[ 2024-01-03 08:20:19,945 ] 96 werkzeug - INFO -  * Debugger PIN: 107-102-625
+[ 2024-01-03 08:20:24,755 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Jan/2024 08:20:24] "GET / HTTP/1.1" 200 -
+[ 2024-01-03 08:20:25,099 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Jan/2024 08:20:25] "[33mGET /static/Black.jpg HTTP/1.1[0m" 404 -
+[ 2024-01-03 08:20:25,361 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Jan/2024 08:20:25] "[33mGET /favicon.ico HTTP/1.1[0m" 404 -
+[ 2024-01-03 08:20:27,731 ] 91 root - INFO - Entered initiate_data_ingestion method of Data_Ingestion class
+[ 2024-01-03 08:20:27,731 ] 59 root - INFO - Exporting Data From MongoDB
+[ 2024-01-03 08:20:30,657 ] 68 root - INFO - Saving Exported Data into feature store file path: {raw_file_path}
+[ 2024-01-03 08:20:30,683 ] 97 root - INFO - Got The Data From MongoDB
+[ 2024-01-03 08:20:30,683 ] 100 root - INFO - Exited initiate_data_ingestion method of Data_Ingestion class
+[ 2024-01-03 08:20:30,683 ] 118 root - INFO - Entered initiate_data_transformation method of Data_Transformation class
+[ 2024-01-03 08:20:30,762 ] 40 root - INFO - Entered the save_object method of MainUtils class
+[ 2024-01-03 08:20:30,772 ] 46 root - INFO - Exited the save_object method of MainUtils class
+[ 2024-01-03 08:20:30,772 ] 175 root - INFO - Splitting training and testing input and target feature
+[ 2024-01-03 08:20:30,772 ] 186 root - INFO - Extracting model config file path
+[ 2024-01-03 08:20:30,773 ] 198 root - INFO - Extracting model config file path
+[ 2024-01-03 08:20:30,811 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Jan/2024 08:20:30] "[35m[1mGET /train HTTP/1.1[0m" 500 -
+[ 2024-01-03 08:20:30,850 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Jan/2024 08:20:30] "[36mGET /train?__debugger__=yes&cmd=resource&f=style.css HTTP/1.1[0m" 304 -
+[ 2024-01-03 08:20:31,166 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Jan/2024 08:20:31] "[36mGET /train?__debugger__=yes&cmd=resource&f=debugger.js HTTP/1.1[0m" 304 -
+[ 2024-01-03 08:20:31,522 ] 96 werkzeug - INFO - 127.0.0.1 - - [03/Jan/2024 08:20:31] "[36mGET /train?__debugger__=yes&cmd=resource&f=console.png HTTP/1.1[0m" 304 -
